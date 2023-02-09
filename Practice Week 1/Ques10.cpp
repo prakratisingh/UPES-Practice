@@ -1,0 +1,21 @@
+/*Write a program in C to display the pattern like right angle triangle using an asterisk 
+* 
+** 
+*** 
+**** 
+*/
+#include<iostream>
+using namespace std;
+int main()
+{
+    int n;
+    cin>>n;
+    for(int i=0;i<=n;i++)
+    {
+        for(int j=0;j<i;j++)
+        {
+            cout<<"*";
+        }
+        cout<<endl;
+    }
+}
